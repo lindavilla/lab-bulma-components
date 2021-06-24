@@ -6,15 +6,17 @@ import './Navbar.css';
 class Navbar extends Component {
     render () {
         return (
-            <nav className="navbar is-transparent">
+            <nav className="navbar is-transparent extra-design">
             <div className="navbar-brand">
               <a className="navbar-item" href="https://bulma.io">
                 <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28"/>
               </a>
-              <div className="navbar-burger" data-target="navbarExampleTransparentExample">
+              <div class= "Home" data-target="navbarExampleTransparentExample">
                 <span></span>
                 <span></span>
                 <span></span>
+                <h3>Home</h3>
+                
               </div>
             </div>
             

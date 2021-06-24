@@ -1,0 +1,12 @@
+.extra-design {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
