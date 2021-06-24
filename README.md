@@ -84,16 +84,16 @@ Now it's time to create a new component `FormField` we will use multiple times i
 
 ```html
 <!-- What is rendered in the DOM -->
-<div class="field">
-  <label class="label">Name</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="e.g Alex Smith" />
+<div className="field">
+  <label className="label">Name</label>
+  <div className="control">
+    <input className="input" type="text" placeholder="e.g Alex Smith" />
   </div>
 </div>
-<div class="field">
-  <label class="label">Email</label>
-  <div class="control">
-    <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
+<div className="field">
+  <label className="label">Email</label>
+  <div className="control">
+    <input className="input" type="email" placeholder="e.g. alexsmith@gmail.com" />
   </div>
 </div>
 ```
@@ -119,27 +119,27 @@ const FormField = props => {
 
 Follow the folder/file pattern as we instructed you in the first two iterations.
 
-The goal is to create a component called `CoolButton` that creates a `<button>` with the nice Bulma classes.
+The goal is to create a component called `CoolButton` that creates a `<button>` with the nice Bulma classNamees.
 
 You will find the Bulma buttons documentation here: https://bulma.io/documentation/elements/button/
 
 ```jsx
 // JSX version
-<CoolButton isSmall isDanger className="is-rounded my-class">Button 1</CoolButton>
+<CoolButton isSmall isDanger className="is-rounded my-className">Button 1</CoolButton>
 <CoolButton isSmall isSuccess>Button 2</CoolButton>
 ```
 
 ```html
 <!-- What is rendered in the DOM -->
-<button class="button is-rounded my-class is-danger is-small">Button 1</button>
-<button class="button is-small is-success">Button 2</button>
+<button className="button is-rounded my-className is-danger is-small">Button 1</button>
+<button className="button is-small is-success">Button 2</button>
 ```
 
 What is visually rendered
 
 ![](https://i.imgur.com/qrfQG18.png)
 
-Because there are many cases to code, focus on the following classes: `is-primary`, `is-success`, `is-danger`.
+Because there are many cases to code, focus on the following classNamees: `is-primary`, `is-success`, `is-danger`.
 
 If you need any help, you can have a look how to take the content between an opening tag and a closing tag: [Children in JSX](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
 
@@ -198,7 +198,7 @@ Before continuing, ask for feedback from one of your teachers, they will give yo
 Then, you can:
 
 - Refactor your code
-- Create a `Container` component (for the class "container")
+- Create a `Container` component (for the className "container")
 - Create a `Message` component (see the following explanation)
 
 #### Message Component
